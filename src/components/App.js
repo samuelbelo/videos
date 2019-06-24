@@ -22,7 +22,7 @@ class App extends React.Component {
     };
 
     componentDidMount() {
-        this.onTermSubmit('cats');
+        this.onTermSubmit('');
     }
 
     onVideoSelect = (video) => {
